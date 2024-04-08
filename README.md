@@ -805,7 +805,7 @@
 
 10. ### What are lambda expressions or arrow functions
 
-    An arrow function is a shorter/concise syntax for a function expression and does not have its own **this, arguments, super, or new.target**. These functions are best suited for non-method functions, and they cannot be used as constructors.
+    An arrow function is a shorter/concise syntax for a function expression and it doesn't have function keyword and return keywodand does not have its own **this, arguments, super, or new.target**. These functions are best suited for non-method functions, and they cannot be used as constructors. 
 
     Some of the examples of arrow functions are listed as below,
     ```javascript
