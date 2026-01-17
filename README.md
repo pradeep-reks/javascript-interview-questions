@@ -1102,8 +1102,18 @@
 
     ```javascript
     message("Good morning"); //Good morning
+    value("Good morning");
+    value2("Good morning");
 
     function message(name) {
+      console.log(name);
+    }
+
+    var value  = function (name) {
+      console.log(name);
+    }
+
+    var value2  =  (name)  => {
       console.log(name);
     }
     ```
