@@ -633,7 +633,7 @@
 
 3. ### What is the difference between Call, Apply and Bind
 
-   The difference between Call, Apply and Bind can be explained with below examples,
+  It is commonly used for function reuse, method borrowing, and controlling the execution context.
 
    **Call:** The call() method invokes a function with a given `this` value and arguments provided one by one
 
